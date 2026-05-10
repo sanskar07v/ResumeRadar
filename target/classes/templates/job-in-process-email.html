@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Application in Process</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333;">
+    <h2>Your Application is Being Processed</h2>
+
+    <p>Hello <span th:text="${name}">User</span>,</p>
+
+    <p>Good news! Your application for the position of <strong th:text="${jobTitle}">[Job Title]</strong> at <strong th:text="${companyName}">[Company Name]</strong> is currently under review.</p>
+
+    <p>Our team is actively evaluating your qualifications and experience. We will contact you soon if your profile matches our requirements for the next stage.</p>
+
+    <p>You can view your application status by visiting your dashboard:</p>
+
+    <p>
+        <a th:href="${loginUrl}"
+           style="background-color: #1a73e8; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">
+            View Application Status
+        </a>
+    </p>
+
+    <p>If you have any questions or need assistance, please contact our support team at
+        <a th:href="'mailto:' + ${supportEmail}" th:text="${supportEmail}">support@example.com</a>.
+    </p>
+
+    <p>Thank you for using ResumeRadar!<br/>
+    The ResumeRadar Team</p>
+</body>
+</html>

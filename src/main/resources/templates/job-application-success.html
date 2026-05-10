@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Application Submitted</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333;">
+    <h2>Application Submitted Successfully</h2>
+
+    <p>Hello <span th:text="${name}">User</span>,</p>
+
+    <p>Thank you for applying for the position of <strong th:text="${jobTitle}">[Job Title]</strong> at <strong th:text="${companyName}">[Company]</strong>.</p>
+
+    <p>Your application was successfully submitted on <span th:text="${submittedDate}">[Date]</span>.</p>
+
+    <p>We will review your application and contact you if your qualifications match our requirements.</p>
+
+    <p>You can track your application status anytime by logging into your account:</p>
+
+
+    <p>If you have any questions, feel free to contact our support team at
+        <a th:href="'mailto:' + ${supportEmail}" th:text="${supportEmail}">support@example.com</a>.
+    </p>
+
+    <p>Best of luck!<br/>
+    The ResumeRadar Team</p>
+</body>
+</html>
