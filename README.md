@@ -64,14 +64,3 @@ Steps
 bash
 Copy
 Edit
-
-
-# Navigate to project directory
-cd ResumeRadar
-
-# Update application.properties with your DB and Google OAuth config
-
-# Build and run the project
-./mvnw spring-boot:run
-
-
