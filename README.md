@@ -79,8 +79,7 @@ Steps
 bash
 Copy
 Edit
-# Clone the repository
-git clone https://github.com/mehul1908/ResumeRadar.git
+
 
 # Navigate to project directory
 cd ResumeRadar
@@ -91,11 +90,3 @@ cd ResumeRadar
 ./mvnw spring-boot:run
 
 
-### 🔧 Installation Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mehul1908/resumeradar.git
-   cd resumeradar
-"# ResumeRadar" 
-"# ResumeRadar" 
