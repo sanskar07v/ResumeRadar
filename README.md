@@ -24,22 +24,6 @@ Error Handling: Global exception handling for robust API responses.
 
 Documentation: Swagger integrated for API testing and documentation.
 
- 
-
-src/main/java/com/resumeradar
-│
-├── config/              # Security, JWT, and OAuth2 configurations
-├── controller/          # REST API controllers
-├── entity/              # Entity classes (User, Role, Resume, Job, etc.)
-├── exception/           # Global and custom exception handling
-├── model/               # DTOs for requests and responses
-├── repo/                # Spring Data JPA repositories
-├── service/             # Business logic layer
-├── utils/               # Utility classes (e.g. Token blacklist)
-└── ResumeRadarApplication.java  # Main application entry point
-
-
-
 ⚙️ Technologies Used
 Java 17
 
